@@ -3,12 +3,29 @@ html {
   font-family: Bevan, sans-serif;
   line-height: 1.5;
   background-color: #dbd6cf;
+  text-align: center;
+  color: #fff;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1, h2 {
-  color: #fff;
+h1 {
+  padding: .75em;
+  background-color: #79756f;
+  border: 3px solid #595652;
+  font-size: 4rem;
+}
+
+h2 {
+  margin: .3em;
+  display: inline-block;
+  background-color: #713837;
+  padding: .75em;
+  border-radius: 10px;
+}
+
+h2:hover {
+  background-color: #f33;
 }
