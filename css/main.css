@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: Bevan, sans-serif;
   line-height: 1.5;
   background-color: #dbd6cf;
   text-align: center;
@@ -11,21 +10,48 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
-  padding: .75em;
-  background-color: #79756f;
-  border: 3px solid #595652;
-  font-size: 4rem;
+body {
+  margin: 0;
 }
 
-h2 {
+header {
+  background-color: #79756f;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+  margin: 0;
+  padding: .5em .75em;
+}
+
+h1 {
+  font-family: Bevan, serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
   margin: .3em;
   display: inline-block;
   background-color: #713837;
-  padding: .75em;
+  padding: .5em .75em;
   border-radius: 10px;
 }
 
-h2:hover {
+li:hover {
+  background-color: #f33;
+}
+
+a {
+  list-style-type: none;
+  color: #fff;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
   background-color: #f33;
 }
